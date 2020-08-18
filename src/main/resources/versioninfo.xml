@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<versioninfo>
+    <productname>数据处理11系统</productname>
+    <productversion>12</productversion>
+    <!-- 新特性 -->
+    <features>  <!--
+        <feature>1.稳定性提升：支持数据库、iServer等环境监测</feature>
+        <feature>2 数据中心新增在线制图功能：支持专题图制作热力图、蜂巢图、聚合图、单值图、分段图等分析</feature>
+        <feature>3 新增数据处理系统快速查询功能</feature>-->
+    </features>
+
+    <!-- 增强内容 -->
+    <enhances>
+        <enhances>1 数据管理系统（DM）优化启动、加载数据目录等功能</enhances>
+        <enhances>2 本次针对V9.1_Alpha版做了大量优化及bug修复</enhances>
+        <enhances>3 数据上传提供了默认地图和数据源信息，简化项目部署</enhances>
+    </enhances>
+    <!-- 兼容性说明 -->
+    <compatibilitys>
+        <compatibility>1本次产品发布均为新的子系统，新的产品单独成包，这里不再做说明。</compatibility>
+        <compatibility>2注意：如果您的产品是V9.1_Alpha版本准备升级，请再核对V9.1_Alpha版本兼容性说明中的表和字段是否已经补全（V9.1_Alpha在发版后字段做过调整）</compatibility>
+    </compatibilitys>
+    <!-- 其他说明 -->
+    <others>
+        <other>1 元数据库及空间库新增支持运行PostgreSQL</other>
+    </others>
+</versioninfo>

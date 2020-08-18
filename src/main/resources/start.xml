@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<startup>
+    <!--改文件存放在根目录下-->
+    <!--启动方式的名称-->
+    <pidname>SuperMap iDesktop .NET.exe</pidname>
+    <!--启动方式相对于根目录的位置，如果就在根目录下，可以不写-->
+    <pidpath></pidpath>
+    <!--远程服务的地址-->
+    <httpurl>http://172.16.15.250:8080/upgradetools-web/ftp/</httpurl>
+</startup>
